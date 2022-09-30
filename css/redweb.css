@@ -1,5 +1,7 @@
 body{
-    width: 800px;
-    background-color: blue url(../images/tagline_bg.gif) repeat-x middle;
-
+width: 800px;
+background: blue url('../images/body_bg.gif') repeat-x middle;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(192, 17, 17);
+margin:0px auto;
 }
