@@ -1,8 +1,40 @@
 body{
 width: 800px;
-background: blue url('../images/body_bg.gif') repeat-x middle;
-font-family: 'Times New Roman', Times, serif;
+background: rgb(74, 74, 143) url('../images/body_bg.gif') repeat-x;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size:1em;
-color: rgb(192, 17, 17);
+color: rgb(255, 255, 255);
 margin:0px auto;
+margin-top: 50px;
+}
+
+h1{
+font-size: 30px;
+}
+h2{
+color: beige;
+    font-size: 25px;    
+}
+ul {
+    list-style-type: none;
+}
+
+header,#topweb{
+margin:0 auto;
+margin-bottom: 50px;
+width: 800px;
+}
+
+#fstlist {
+    float: right;
+    padding-top: 30px;
+}
+#fstlist li {
+    display: inline;
+    margin: 10px;
+    color: #fff;
+}
+
+a{
+ color: #fff;   
 }
